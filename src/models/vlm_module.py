@@ -1,6 +1,5 @@
 """
 VLM (Visual-Language Model) module for image description generation
-Implementation based on Qwen2.5-VL-72B-Instruct as specified in the diploma
 """
 import base64
 import io
@@ -16,7 +15,6 @@ logger = logging.getLogger(__name__)
 class VLMModule:
     """
     Visual-Language Model module for generating image descriptions
-    Based on algorithm 7.2.3 from the diploma work
     """
     def __init__(self, model_path: str = None):
         """

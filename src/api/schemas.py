@@ -1,6 +1,5 @@
 """
 Pydantic schemas for REST API
-Based on the API specification from the diploma work
 """
 from pydantic import BaseModel, Field, validator
 from typing import List, Optional, Dict, Any

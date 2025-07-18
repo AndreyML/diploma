@@ -57,7 +57,7 @@ app = FastAPI(
     - Image description using Visual-Language Models (VLM)
     - Prompt enhancement using Large Language Models (LLM)
     - Custom model training with LoRA
-    Based on the diploma work implementation with modular architecture.
+
     """,
     docs_url="/docs",
     redoc_url="/redoc",

@@ -1,6 +1,5 @@
 """
 LLM (Large Language Model) module for prompt enhancement
-Implementation based on Qwen3-32B as specified in the diploma
 """
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -13,7 +12,6 @@ logger = logging.getLogger(__name__)
 class LLMModule:
     """
     Large Language Model module for improving user prompts
-    Based on algorithm 7.2.4 from the diploma work
     """
     def __init__(self, model_path: str = None):
         """

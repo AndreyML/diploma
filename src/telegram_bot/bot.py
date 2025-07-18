@@ -1,6 +1,5 @@
 """
 Карточки товаров AI
-Implementation based on the diploma work specification
 """
 import logging
 import base64

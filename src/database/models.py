@@ -1,6 +1,5 @@
 """
 Database models for the AI Content Generation Service
-Based on the schema defined in the diploma work
 """
 from sqlalchemy import Column, Integer, String, Text, TIMESTAMP, ForeignKey, JSON, BigInteger
 from sqlalchemy.ext.declarative import declarative_base

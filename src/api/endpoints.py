@@ -1,6 +1,5 @@
 """
 REST API endpoints implementation
-Based on the API specification from the diploma work
 """
 from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks
 from sqlalchemy.orm import Session

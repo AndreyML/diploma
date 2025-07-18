@@ -1,6 +1,5 @@
 """
 FLUX Training Utilities
-Based on ai-toolkit implementation for FLUX.1-dev LoRA training
 """
 import torch
 import torch.nn.functional as F
@@ -14,7 +13,6 @@ def apply_noise_offset(
         noise_offset: float) -> torch.Tensor:
     """
     Apply noise offset to improve training stability
-    Based on https://www.crosslabs.org//blog/diffusion-with-offset-noise
     Args:
         noise: Input noise tensor
         noise_offset: Noise offset value
@@ -231,7 +229,7 @@ def estimate_flux_memory_usage(
 def flux_guidance_bypass_forward(self, timestep, guidance, pooled_projection):
     """
     Bypass guidance embedding during training to save memory
-    Based on ai-toolkit implementation
+
     """
     timesteps_proj = self.time_proj(timestep)
     timesteps_emb = self.timestep_embedder(

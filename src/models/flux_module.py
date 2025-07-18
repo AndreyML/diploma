@@ -1,6 +1,5 @@
 """
 FLUX.1-dev image generation module with LoRA support
-Implementation based on algorithm 7.2.1 from the diploma work
 """
 import torch
 import base64
@@ -18,7 +17,6 @@ logger = logging.getLogger(__name__)
 class FluxModule:
     """
     FLUX.1-dev image generation module with LoRA support
-    Based on algorithm 7.2.1 from the diploma work
     """
     def __init__(self, model_path: str = None):
         """

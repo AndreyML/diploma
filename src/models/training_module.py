@@ -1,6 +1,5 @@
 """
 LoRA Training Module for FLUX.1-dev
-Implementation based on ai-toolkit architecture and algorithm 7.2.2 from the diploma work
 """
 import os
 import base64
@@ -174,7 +173,7 @@ class FluxTrainingDataset(Dataset):
 
 class FluxLoRATrainingModule:
     """
-    FLUX LoRA training module based on ai-toolkit architecture
+    FLUX LoRA training module
     """
 
     def __init__(self, model_path: str = None):
